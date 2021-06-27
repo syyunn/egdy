@@ -82,7 +82,7 @@ def play_wrapper(name, env, agent):
     columns = [avg_r_col, action_col]
 
     df = agent.play(n_steps=N_STEPS_PER_PLAY)
-    # Compute average reward recieved up until every step
+    # Compute average reward received up until every step
     df[avg_r_col] = df.r.cumsum() / (df.index + 1)
     df = df.rename(columns={"a": action_col})
     # df = df[columns]
