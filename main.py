@@ -4,7 +4,7 @@ Short description - This module simulates a 10 armed bandit problem using a simp
 :author: Rajendra Koppula <rkoppula@manifold.ai>
 """
 import gym
-import gym_bandits
+import gym_bandits # this is not used, but required to env.call the BanditTenArmedGaussian-v0
 import logging
 import numpy as np
 import os

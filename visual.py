@@ -1,7 +1,7 @@
 # plotting setup
 import logging
 import pandas as pd
-import plotly.plotly as py
+# import plotly.plotly as py
 import plotly.offline as pyoffline
 import plotly.graph_objs as go
 import cufflinks
